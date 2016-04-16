@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="in.prabakaran.sweethome.picaso.GalleryActivity">
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/new_pic_fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_margin="@dimen/new_pic_fab_margin"-->
+        <!--android:src="@drawable/" />-->
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gallery_grid"
+        android:layout_gravity="left|top"
+        android:numColumns="2"></GridView>
+
+</FrameLayout>
